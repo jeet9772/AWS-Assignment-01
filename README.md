@@ -181,6 +181,9 @@ Available application functions:
 3. Upload File
 4. List Images
 
+
+<img width="1440" height="900" alt="Screenshot 2026-09-23 at 10 31 05 AM" src="https://github.com/user-attachments/assets/124e0fce-80c7-439b-9da1-4ec48cdb909e" />
+
 ## High Availability
 
 The application servers are distributed across two Availability Zones:
@@ -198,43 +201,7 @@ The Auto Scaling Group maintains a minimum of two application instances and can 
 
 Add the final AWS architecture diagram here.
 
-## Screenshots
 
-### 1. VPC
-
-Add VPC screenshot here.
-
-### 2. Subnets
-
-Add subnet configuration screenshot here.
-
-### 3. Route Tables
-
-Add public and private route table screenshots here.
-
-### 4. NAT Gateway
-
-Add NAT Gateway screenshot here.
-
-### 5. Security Groups
-
-Add Security Group screenshots here.
-
-### 6. Application Load Balancer
-
-Add ALB screenshot here.
-
-### 7. Target Group
-
-Add Target Group screenshot showing 2 healthy targets here.
-
-### 8. Auto Scaling Group
-
-Add ASG configuration screenshot here.
-
-### 9. Launch Template
-
-Add Launch Template Version 2 screenshot here.
 
 ### 10. Final Application
 
