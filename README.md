@@ -207,6 +207,9 @@ Add the final AWS architecture diagram here.
 
 Add browser screenshot showing the Spring3Hibernate application here.
 
+<img width="1440" height="900" alt="Screenshot 2026-09-23 at 10 31 05 AM" src="https://github.com/user-attachments/assets/680846d5-af1f-4fcd-8a07-5a5411b45d50" />
+
+
 ## Final Result
 
 The Spring3Hibernate application was successfully deployed on private EC2 instances and exposed through an Application Load Balancer.
