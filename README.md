@@ -60,6 +60,13 @@ The infrastructure consists of:
 * Target Group: `spring3hibernate-tg`
 * Target Port: 8080
 
+## Load Balancer-Screenshots######
+
+
+<img width="1440" height="900" alt="Screenshot 2026-09-23 at 11 06 52 AM" src="https://github.com/user-attachments/assets/c7b07f20-47ab-4b26-9c82-a9d535eb4972" />
+
+
+
 ## Auto Scaling Group
 
 * Name: `spring3hibernate-asg`
@@ -73,6 +80,13 @@ The infrastructure consists of:
 * Health Checks: EC2 + ELB
 * Target Tracking: Average CPU Utilization 50%
 
+  #######Auto Scaling Group-Screenshots######
+
+
+
+  <img width="1440" height="900" alt="Screenshot 2026-09-23 at 11 06 52 AM" src="https://github.com/user-attachments/assets/f8172e8c-6798-476b-8b87-9d1c5c1cbc31" />
+
+
 ## EC2 Application Servers
 
 The application servers are deployed in private subnets.
@@ -85,6 +99,12 @@ The application servers are deployed in private subnets.
 
 The EC2 instances do not have public IP addresses.
 
+## EC2 Application Servers-Screenshots######
+
+<img width="1440" height="900" alt="Screenshot 2026-09-23 at 11 10 07 AM" src="https://github.com/user-attachments/assets/69c4f636-f75e-4a88-a3bb-caf4f9ceb735" />
+
+
+
 ## NAT Gateway
 
 The NAT Gateway provides outbound internet connectivity to the private application servers.
@@ -94,6 +114,8 @@ Private subnet route:
 ```text
 0.0.0.0/0 → NAT Gateway
 ```
+<img width="1440" height="900" alt="Screenshot 2026-09-23 at 11 12 26 AM" src="https://github.com/user-attachments/assets/c85891c7-8101-4386-a1e4-a797a2f59db8" />
+
 
 ## Security
 
@@ -103,6 +125,8 @@ Private subnet route:
 Inbound:
 HTTP 80 → 0.0.0.0/0
 ```
+<img width="1440" height="900" alt="Screenshot 2026-09-23 at 11 13 48 AM" src="https://github.com/user-attachments/assets/91e83163-070a-468a-820a-5c0fd61e1834" />
+
 
 ### Application Security Group
 
@@ -123,6 +147,9 @@ Protocol: HTTP
 Port: 8080
 Health Check Path: /
 ```
+
+<img width="1440" height="900" alt="Screenshot 2026-09-23 at 11 17 30 AM" src="https://github.com/user-attachments/assets/321a5e6b-fa53-4707-b8ee-617167f73b45" />
+
 
 Final verification:
 
